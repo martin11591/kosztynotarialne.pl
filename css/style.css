@@ -1,0 +1,71 @@
+body {
+    font-family: 'Quicksand', 'Questrial', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.panel-heading {
+    background: darkorange !important;
+    font-weight: 700;
+}
+
+.panel-body .well:last-child {
+    margin-bottom: 0;
+}
+
+.panel-footer {
+    background: darkorange !important;
+}
+
+.footerLink {
+    font-weight: bold;
+}
+
+.container {
+    margin: 1.5em auto;
+    width: 66%;
+    min-width: 300px;
+}
+
+#info {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1.5em;
+    display: none;
+}
+
+.well.sum .row:first-child {
+    padding-bottom: 0.33em;
+}
+
+.well.sum .row:last-child {
+    padding-top: 0.33em;
+    border-top: 1px solid black;
+}
+
+.well.sum .row:not(:first-child):not(:last-child) {
+    padding-top: 0.33em;
+    padding-bottom: 0.33em;
+}
+
+.well:last-child .row:last-child div {
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
